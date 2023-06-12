@@ -1,0 +1,10 @@
+{
+  "id": "clems-first-module",
+  "title": "Clem's First Module",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "My first module"
+}
