@@ -37,6 +37,9 @@ function addPenaltyDie(exhaustionLevel, rollData) {
 /* -------------------------------------------- */
 /*List of dnd5e system hooks used: https://github.com/foundryvtt/dnd5e/wiki/Hooks*/
 
+// Possible to do: force these hooks to be last in the event queue (https://github.com/foundryvtt/foundryvtt/issues/9387)
+// if any bugs are encountered with other modules... would be unlikely though 
+
 /** 
 * Calls hook on an event before an ability check roll is made
 *
