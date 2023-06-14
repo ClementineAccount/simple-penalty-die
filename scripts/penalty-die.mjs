@@ -56,3 +56,13 @@ Hooks.on("dnd5e.preRollAbilityTest", (actor, rollData) => {
 Hooks.on("dnd5e.preRollAbilitySave", (actor, rollData) => {
   addPenaltyDie(actor.system.attributes.exhaustion, rollData);
 });
+
+/** 
+* Calls hook on an event before an attack roll with an item is made
+*
+* @param {Item5e} item - Item for which the roll is being performed, where the actor can be retrieved to get the exhaustion level.
+* @param {D20RollConfiguration} rollData - Configuration data for the pending roll. Used here to add the additional die
+*/
+Hooks.on("dnd5e.preRollAttack", (item, rollData) => {
+  addPenaltyDie(item.actor.system.attributes.exhaustion, rollData);
+});
