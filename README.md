@@ -21,4 +21,4 @@ Simple Penalty Die can be installed by placing the manifest link below directly 
 or by searching for the module listed in the same Module Installer. More information can be found on FoundryVTT's [Module Management](https://foundryvtt.com/article/modules/) page.
 
 # License 
-Simple Penalty Die is licensed under the GPLv3 License (see LICENSE).
+Simple Penalty Die is licensed under the [MIT License](https://github.com/ClementineAccount/simple-penalty-die/blob/master/LICENSE).
