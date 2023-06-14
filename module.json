@@ -1,20 +1,22 @@
 {
-	"id": "simple-penalty-die",
-	"title": "Simple Penalty Die for D&D5e",
-	"version": "0.2.0",
-	"compatibility": {
-		"minimum": "11",
-		"verified": "11"
-	},
-	"description": "Adds an automated penalty die for rolls based off exhaustion rules.",
-	"esmodules": [
-		"scripts/penalty-die.mjs"
-	],
-	"authors": [{
-		"name": "Clementine Shamaney",
-		"email": "ClementineShamaney@gmail.com",
-		"url": "https://clementineaccount.github.io/"
-	}],
-	"url": "https://github.com/ClementineAccount/simple-penalty-die",
-	"manifest": "https://github.com/ClementineAccount/simple-penalty-die/blob/master/module.json"
+  "id": "simple-penalty-die",
+  "title": "Simple Penalty Die for D&D5e",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "Adds an automated penalty die for rolls based off exhaustion rules.",
+  "esmodules": [
+    "scripts/penalty-die.mjs"
+  ],
+  "authors": [
+    {
+      "name": "Clementine Shamaney",
+      "email": "ClementineShamaney@gmail.com",
+      "url": "https://clementineaccount.github.io/"
+    }
+  ],
+  "url": "https://github.com/ClementineAccount/simple-penalty-die",
+  "manifest": "https://github.com/ClementineAccount/simple-penalty-die/releases/download/0.2.0/module.json"
 }
