@@ -69,3 +69,20 @@ Hooks.on("dnd5e.preRollAbilitySave", (actor, rollData) => {
 Hooks.on("dnd5e.preRollAttack", (item, rollData) => {
   addPenaltyDie(item.actor.system.attributes.exhaustion, rollData);
 });
+
+
+/** 
+* Adjusts status effects whenever an attempt is made to change the exhaustion level of an actor.
+* To Do: Actually do that. Currently just logs the changes. Need to work out how the changes would act.
+*
+* @param {Actor} actor - Actor whose exhaustion level might be adjusted
+* @param {any} changes - The changes is checked for if it contains the new exhaustion level.
+*/
+Hooks.on("preUpdateActor", (actor, changes) => {
+  //Changes to exhaustion were made and so status effect can be adjusted here
+  if (changes.system.attributes.exhaustion != null)
+  {
+    console.log("The previous exhaustion level is: ", actor.system.attributes.exhaustion);
+    console.log("The new exhaustion level is: ", changes.system.attributes.exhaustion);
+  }
+})
