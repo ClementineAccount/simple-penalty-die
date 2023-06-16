@@ -18,7 +18,7 @@ die replace the one from the previous level.
 
 # Installation
 Simple Penalty Die can be installed by placing the manifest link below directly into the Module Installer in your Foundry server 'Configuration and Setup' tab 
-or by searching for the module listed in the same Module Installer. More information can be found on FoundryVTT's [Module Management](https://foundryvtt.com/article/modules/) page.
+~~or by searching for the module listed in the same Module Installer. More information can be found on FoundryVTT's [Module Management](https://foundryvtt.com/article/modules/) page.~~ (When its actually published I just put this as placeholder text and then forgot I made this public)
 
 # License 
 Simple Penalty Die is licensed under the [MIT License](https://github.com/ClementineAccount/simple-penalty-die/blob/master/LICENSE).
