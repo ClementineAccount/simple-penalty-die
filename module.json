@@ -1,9 +1,9 @@
 {
   "id": "simple-penalty-die",
   "title": "Simple Penalty Die for D&D5e",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "10",
     "verified": "11"
   },
   "description": "Adds an automated penalty die for rolls based off exhaustion rules.",
